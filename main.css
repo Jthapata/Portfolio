@@ -31,13 +31,16 @@ body {
     justify-content: center;
     align-items: center;
 }
-#projects, #skills, #connect {
+#projects, #skills, #links {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     animation: appear;
-    animation-duration: 7s;
+    animation-duration: 6s;
+}
+#links {
+    margin-bottom: 2rem;
 }
 h1 {
     font-size: 7rem;
