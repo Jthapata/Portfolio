@@ -5,14 +5,33 @@
     color: white
 }
 body {
+    background-color: #003056;
     background-image: url("images/home-background/bg1.svg");
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-position: center;
     background-size: cover;
+}
+#hero {
+    height: 80vh;
     display: flex;
     flex-direction: column;
-    align-items: center;
     justify-content: center;
-    height: 100vh;
+    align-items: center;
+}
+#projects, #skills, #connect {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+h1 {
+    font-size: 7rem;
+    position: relative;
+    text-align: end;
+}
+h3 {
+    margin: 2rem;
+    font-size: 3rem;
+    align-self: flex-start;
 }
