@@ -12,6 +12,18 @@ body {
     background-position: center;
     background-size: cover;
 }
+@keyframes grow {
+    0%   {font-size: 0px;}
+    25%  {font-size: 0px;}
+    50%  {font-size: 0px;}
+    100% {font-size: 7rem;}
+}
+@keyframes appear {
+    0%   {opacity: 0;}
+    25%  {opacity: 0;}
+    50%  {opacity: 0;}
+    100% {opacity: 1;}
+}
 #hero {
     height: 80vh;
     display: flex;
@@ -24,11 +36,15 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    animation: appear;
+    animation-duration: 7s;
 }
 h1 {
     font-size: 7rem;
     position: relative;
     text-align: end;
+    animation: grow;
+    animation-duration: 3s;
 }
 h3 {
     margin: 2rem;
