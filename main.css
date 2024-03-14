@@ -59,6 +59,16 @@ h3 {
     align-self: flex-start;
     text-decoration: underline;
 }
+h4{
+    margin: 1rem;
+}
+h5 {
+    margin: 1rem;
+    padding: .5rem;
+    font-weight: bold;
+    background-color: black;
+    border-radius: 5px;
+}
 a {
     text-decoration: none;
 }
@@ -92,11 +102,4 @@ li {
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
-}
-h5 {
-    margin: 1rem;
-    padding: .5rem;
-    font-weight: bold;
-    background-color: black;
-    border-radius: 5px;
 }
