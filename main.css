@@ -87,19 +87,19 @@ li {
     border: solid 1px white;
     border-radius: 10px;
     text-align: center;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
 }
 .project:hover {
     box-shadow: 0px 0px 10px white;
 }
 #golf-score {
     background-image: url("images/golf-app.png");
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
 }
 #to-do {
     background-image: url("images/to-do.png");
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
+}
+#skill-list {
+    text-align: center;
 }
