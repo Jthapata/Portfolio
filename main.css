@@ -2,11 +2,15 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
-    color: white
+    color: white;
+    font-family: "Comfortaa", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    font-weight: 400;
 }
 body {
     background-color: #003056;
-    background-image: url("images/home-background/bg1.svg");
+    background-image: url("images/bg1.svg");
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-position: center;
@@ -16,7 +20,7 @@ body {
     0%   {font-size: 0px;}
     25%  {font-size: 0px;}
     50%  {font-size: 0px;}
-    100% {font-size: 7rem;}
+    100% {font-size: 10vw;}
 }
 @keyframes appear {
     0%   {opacity: 0;}
@@ -43,7 +47,7 @@ body {
     margin-bottom: 2rem;
 }
 h1 {
-    font-size: 7rem;
+    font-size: 10vw;
     position: relative;
     text-align: end;
     animation: grow;
@@ -51,6 +55,51 @@ h1 {
 }
 h3 {
     margin: 2rem;
-    font-size: 3rem;
+    margin-left: 20%;
     align-self: flex-start;
+    text-decoration: underline;
+}
+h4{
+    margin: 1rem;
+}
+h5 {
+    margin: 1rem;
+    padding: .5rem;
+    font-weight: bold;
+    background-color: black;
+    border-radius: 5px;
+}
+a {
+    text-decoration: none;
+}
+li {
+    list-style: none;
+}
+#project-list {
+    display: flex;
+    flex-wrap: wrap;
+}
+.project {
+    height: 20vh;
+    width: 20vw;
+    min-width: 150px;
+    margin: 1rem;
+    border: solid 1px white;
+    border-radius: 10px;
+    text-align: center;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.project:hover {
+    box-shadow: 0px 0px 10px white;
+}
+#golf-score {
+    background-image: url("images/golf-app.png");
+}
+#to-do {
+    background-image: url("images/to-do.png");
+}
+#skill-list {
+    text-align: center;
 }
