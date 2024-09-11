@@ -16,12 +16,12 @@ body {
     background-position: center;
     background-size: cover;
 }
-@keyframes grow {
+/* @keyframes grow {
     0%   {font-size: 0px;}
     25%  {font-size: 0px;}
     50%  {font-size: 0px;}
     100% {font-size: 10vw;}
-}
+} */
 @keyframes appear {
     0%   {opacity: 0;}
     25%  {opacity: 0;}
@@ -41,7 +41,8 @@ body {
     justify-content: center;
     align-items: center;
     animation: appear;
-    animation-duration: 6s;
+    animation-duration: 2s;
+    margin-bottom: 100px;
 }
 #links {
     margin-bottom: 2rem;
@@ -57,7 +58,6 @@ h3 {
     margin: 2rem;
     margin-left: 20%;
     align-self: flex-start;
-    text-decoration: underline;
 }
 h4{
     margin: 1rem;
@@ -70,7 +70,7 @@ h5 {
     border-radius: 5px;
 }
 a {
-    text-decoration: none;
+    text-decoration: underline;
 }
 li {
     list-style: none;
@@ -100,6 +100,96 @@ li {
 #to-do {
     background-image: url("images/to-do.png");
 }
-#skill-list {
+#cryptohs {
+    background-image: url("images/cryptohs.png");
+}
+#dj-courses {
+    background-image: url("images/dj-courses.png");
+}
+.skill-list {
     text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    padding: 3rem;
+    background-color: #f8716b;
+    border-radius: 0.75rem;
+    width: 75%;
+}
+.skill-list p {
+    font-size: x-large;
+    width: 25%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.icon {
+    height: 50px;
+    width: 50px;
+    margin: 1rem;
+    background-repeat: no-repeat;
+    display: inline-block;
+}
+#html {
+    background-image: url("images/icons/html.svg");
+}
+#css {
+    background-image: url("images/icons/css.svg");
+}
+#javascript {
+    background-image: url("images/icons/javascript.svg");
+}
+#tailwindcss {
+    background-image: url("images/icons/tailwindcss.svg");
+}
+#node-js {
+    border-radius: 0.25rem;
+    background-color: white;
+    background-image: url("images/icons/nodejs.svg");
+}
+#express {
+    border-radius: 0.25rem;
+    background-color: white;
+    background-image: url("images/icons/express-js.svg");
+}
+#react {
+    background-image: url("images/icons/react-js.svg");
+}
+#next-js {
+    border-radius: 0.25rem;
+    background-color: white;
+    background-image: url("images/icons/nextjs.svg");
+}
+#vite {
+    background-image: url("images/icons/vite.svg");
+}
+#postgresql {
+    background-image: url("images/icons/postgresql.svg");
+}
+#mongodb {
+    background-image: url("images/icons/mongodb.svg");
+}
+#python {
+    background-image: url("images/icons/python.svg");
+}
+#github {
+    background-image: url("images/icons/github.svg");
+}
+#linkedin {
+    background-image: url("images/icons/linkedin.svg");
+}
+.link-list {
+    width: 40%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: white;
+    border-radius: 0.75rem;
+}
+.link-list a {
+    color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
